@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-=======
 class PostsController < ApplicationController
   before_action :find_post, only: %i[edit update show delete]
 
@@ -63,4 +61,3 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
   end
 end
->>>>>>> change-branch
